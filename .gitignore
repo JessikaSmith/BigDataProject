@@ -1,0 +1,8 @@
+
+\.ipynb_checkpoints/
+
+*.hdf5
+
+data/
+
+BigDataProject\.zip
