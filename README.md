@@ -14,6 +14,8 @@
 - [ ] Create sentiment characteristics for each user
   * Evaluate the dynamics of user sentiment by analyzing tweets with time window
   * Understand the way of feature vectors creation
+- [ ] Synthesize new features
+  * Average discussion length for each user
 - [ ] Perform clusterisation
   * Select metric
   * Use kmeans/kmedoids
