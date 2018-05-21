@@ -10,3 +10,7 @@ BigDataProject\.zip
 \.DS_Store
 
 \.idea/
+
+sc/metastore_db/
+
+sc/derby\.log
