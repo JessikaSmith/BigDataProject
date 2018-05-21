@@ -6,3 +6,7 @@
 data/
 
 BigDataProject\.zip
+
+\.DS_Store
+
+\.idea/
