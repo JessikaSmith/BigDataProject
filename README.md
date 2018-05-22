@@ -6,3 +6,20 @@
 
 ## Tasks
 
+- [ ] Collect data about Twitter users (~1000) 
+  * Profile information (?)
+  * Tweets (reposts, likes)
+- [ ] Analyze stats characteristics of obtained data
+- [ ] Perform sentiment analysis
+- [ ] Create sentiment characteristics for each user
+  * Evaluate the dynamics of user sentiment by analyzing tweets with time window
+  * Understand the way of feature vectors creation
+- [ ] Synthesize new features
+  * Average discussion length for each user
+- [ ] Perform clusterisation
+  * Select metric
+  * Use kmeans/kmedoids
+- [ ] Make conclusions about each cluster
+  * Evaluate the possibility of constructing a classifier
+  * Extract core topics
+- [ ] Implement visualization 
