@@ -18,4 +18,5 @@ if __name__ == '__main__':
     parse_dates = ['created_at']
     data = pd.read_csv("../data/twitter.csv", encoding='utf-8', dtype=types, parse_dates=parse_dates)
     print(data.head(10))
+
     print("Ok")
