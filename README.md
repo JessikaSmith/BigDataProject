@@ -22,4 +22,4 @@
 - [ ] Make conclusions about each cluster
   * Evaluate the possibility of constructing a classifier
   * Extract core topics
-- [ ] Implement visualization
+- [ ] Implement visualization 
