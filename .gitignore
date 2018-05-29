@@ -3,7 +3,6 @@
 
 *.hdf5
 
-data/
 
 BigDataProject\.zip
 
@@ -18,3 +17,11 @@ sc/derby\.log
 sc/Topics_Fat\.ipynb
 
 sc/Clustering\(1\)\.ipynb
+
+data/ArchiveData/
+
+data/raw_data\.csv
+
+data/topics/
+
+data/tmp_data\.parquet
