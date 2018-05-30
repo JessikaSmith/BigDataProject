@@ -6,6 +6,7 @@ import numpy as np
 import datetime, time
 from sc.CONFIG import *
 
+
 if __name__ == '__main__':
     upd_columns = {'id_str': 'id',
                    'screename': 'username',
