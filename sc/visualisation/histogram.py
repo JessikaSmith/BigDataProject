@@ -1,4 +1,5 @@
 from .config import *
+import os
 
 
 def plot_Hist(data, save=False, bins=None, x_lim=(0, 320), color='firebrick', title='Lenght of Twitts',
@@ -12,7 +13,7 @@ def plot_Hist(data, save=False, bins=None, x_lim=(0, 320), color='firebrick', ti
     plt.legend(loc=1)
     plt.tight_layout()
     if save:
-        if not os.path.exists('Images/Histograms/'):
-            os.makedirs('Images/Histograms/')
-        plt.savefig('Images/Histograms/' + title + '.png')
+        if not os.path.exists('../Images/Histograms/'):
+            os.makedirs('../Images/Histograms/')
+        plt.savefig('../Images/Histograms/' + title + '.png')
     plt.show()

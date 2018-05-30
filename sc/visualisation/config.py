@@ -2,7 +2,6 @@ from __future__ import absolute_import
 import matplotlib
 from matplotlib import pyplot as plt
 import seaborn as sns
-import os
 
 
 # SEA-BORN Modification

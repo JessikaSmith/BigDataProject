@@ -25,3 +25,5 @@ data/raw_data\.csv
 data/topics/
 
 data/tmp_data\.parquet
+
+sc/__pycache__/

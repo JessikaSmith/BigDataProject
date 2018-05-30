@@ -3,20 +3,16 @@
 from __future__ import absolute_import
 import pandas as pd
 import numpy as np
-import tqdm
-import re
-import sys
-from matplotlib import pyplot as plt
-import seaborn as sns
-import math
-import matplotlib
-from scipy import stats
-
+import datetime, time
+from sc.CONFIG import *
 
 if __name__ == '__main__':
-    types = {'id_str': np.int, 'retweets': np.int, 'reply_to': np.int, 'favorites': np.int, 'replies': np.int}
-    parse_dates = ['created_at']
-    data = pd.read_csv("../data/twitter.csv", encoding='utf-8', dtype=types, parse_dates=parse_dates)
-    print(data.head(10))
-
-    print("Ok")
+    upd_columns = {'id_str': 'id',
+                   'screename': 'username',
+                   'created_at': 'date_time',
+                   'pic': 'picture'}
+    raw_data = pd.read_csv(CONFIG.RAW_DATA_PATH, encoding='utf-8', parse_dates=['created_at', 'creation']).drop(
+        "Unnamed: 0",
+        axis=1)
+    raw_data.rename(columns=upd_columns, inplace=True)
+    print("OK")
